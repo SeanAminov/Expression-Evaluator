@@ -1,0 +1,29 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-ExpressionEvaluator\expressionevaluator-aden-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-ExpressionEvaluator\expressionevaluator-aden-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-ExpressionEvaluator\expressionevaluator-aden-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-ExpressionEvaluator\expressionevaluator-aden-aminovs-mvla\src\main\resources, C:\Users\scott\ADEN_GRADERS\Grader-ExpressionEvaluator\expressionevaluator-aden-aminovs-mvla\src]
+java.files = [ExpressionEvaluator.java, ExpressionEvaluatorGUI.java, ExpressionEvaluatorImpNeg1Test.java, GenericStack.java, RegularExpressions.java]
+allJava.files = [ExpressionEvaluator.java, ExpressionEvaluatorGUI.java, ExpressionEvaluatorImpNeg1Test.java, GenericStack.java, RegularExpressions.java]
+resources.files = []
+allSource.files = [ExpressionEvaluator.java, ExpressionEvaluatorGUI.java, ExpressionEvaluatorImpNeg1Test.java, GenericStack.java, RegularExpressions.java]
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ExpressionEvaluatorImpNeg1Test > test_ImpMultNeg1Test() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3
